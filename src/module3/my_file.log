@@ -1,0 +1,5 @@
+2026-09-26 12:33:46,620 - INFO - GET /hello - Status: 200
+2026-09-26 12:34:35,426 - INFO - GET /doesnotexist - Status: 404
+2026-09-26 12:35:48,341 - INFO - GET /docs - Status: 200
+2026-09-26 12:35:48,428 - INFO - GET /openapi.json - Status: 200
+2026-09-26 12:35:57,432 - INFO - POST /person - Status: 200

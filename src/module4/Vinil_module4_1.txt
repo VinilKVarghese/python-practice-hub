@@ -1,0 +1,14 @@
+SQL(Structured Query Language) is a language for talking to databases. It lets you store, retrieve, update, and organize data easily.
+. 
+We use SQL because it's the standard way to interact with relational databases, which store data in tables (like spreadsheets). 
+With SQL we can:
+
+Retrieve data – Ask questions like "Show me all customers who bought a product last month"
+Insert new data – Add a new user to your app
+Update existing data – Change a customer's address
+Delete data – Remove old records
+Create and modify database structures – Build new tables, set rules, etc.
+It's powerful because it lets you ask complex questions using just a few lines of code, and databases can handle millions of rows efficiently.
+
+SQL was invented by Donald D. Chamberlin and Raymond F. Boyce at IBM in the early 1970s. It was originally called SEQUEL (Structured English Query Language) but later renamed SQL due to trademark issues.
+ The first commercial implementation came from Oracle in 1979

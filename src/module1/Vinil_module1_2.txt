@@ -25,3 +25,20 @@ Disadvantages of Python:
 - Sometimes unsuitable for applications requiring real-time processing
 
 Overall, Python is a powerful, flexible, and beginner-friendly language that excels in rapid development and modern technologies like AI and data science.
+
+
+
+START
+  OPEN THE FILE FOR READING
+  IF THE FILE CANNOT BE OPENED
+    DISPLAY ERROR MESSAGE
+    STOP
+  END IF
+
+  WHILE NOT END OF FILE
+    READ A LINE FROM THE FILE
+    DISPLAY THE LINE
+  END WHILE
+
+  CLOSE THE FILE
+END
