@@ -7,7 +7,7 @@ import streamlit as st
 # Read environment variables
 PERSONA_MODE = os.getenv("PERSONA_MODE", "false").lower() == "true"
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://ollama:11434")
-MODEL_NAME = os.getenv("MODEL_NAME", "qwen2.5:3b")
+MODEL_NAME = os.getenv("MODEL_NAME", "qwen2.5:1.5b")
 
 
 # Function to create the system prompt

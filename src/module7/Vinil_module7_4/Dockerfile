@@ -1,10 +1,13 @@
-# Use Python as the base image
+
 FROM python:3.14-slim
 
 # Set the working directory
 WORKDIR /app
 
-# Copy the Python program into the container
+# Create the data folder
+RUN mkdir -p /app/data
+
+# Copy the Python program
 COPY Vinil_module7_4.py .
 
 # Run the Python program

@@ -18,7 +18,7 @@ DOCS_FOLDER = "docs"
 DB_PATH = "chat_history.db"
 CHROMA_PATH = "chroma_db"
 
-LLM_MODEL = "qwen2.5:0.5b"
+LLM_MODEL = "qwen2.5:1.5b"
 EMBEDDING_MODEL = "nomic-embed-text"
 
 TOP_K = 3

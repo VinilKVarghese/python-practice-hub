@@ -33,5 +33,5 @@ def calculate_shifted_string_cost(text: str, letter_price: float) -> dict:
 
 
 # Example Usage:
-result = calculate_shifted_string_cost("Hello World!", 0.25)
+result = calculate_shifted_string_cost(input("Enter any string of words: "), float(input("Enter the price per letter: ")))
 print(result)

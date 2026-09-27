@@ -5,7 +5,7 @@ import string
 
 
 # Name of the database
-DATABASE_NAME = "tasks.db"
+DATABASE_NAME = "Vinil_module4_2.db"
 
 
 # Connect to the database

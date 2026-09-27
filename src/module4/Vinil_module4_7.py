@@ -3,7 +3,7 @@ import sqlite3
 
 
 # Database name
-DATABASE_NAME = "tasks.db"
+DATABASE_NAME = "Vinil_module4_2.db"
 
 
 # Approach 1: Sort using SQL ORDER BY

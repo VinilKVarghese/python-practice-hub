@@ -4,7 +4,7 @@ import os
 
 
 # Name of the database
-DATABASE_NAME = "tasks.db"
+DATABASE_NAME = "Vinil_module4_2.db"
 
 
 # Show the folder where Python is running

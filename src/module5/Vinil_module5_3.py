@@ -10,7 +10,7 @@ def ask_ollama(user_text):
     url = "http://localhost:11434/api/generate"
 
     data = {
-        "model": "qwen2.5:0.5b",
+        "model": "qwen2.5:1.5b",
         "prompt": user_text,
         "stream": False
     }

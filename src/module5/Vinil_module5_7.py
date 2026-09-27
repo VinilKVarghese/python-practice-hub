@@ -12,7 +12,7 @@ def chat_with_ollama(messages):
     url = "http://localhost:11434/api/chat"
 
     data = {
-        "model": "qwen2.5:0.5b",
+        "model": "qwen2.5:1.5b",
         "messages": messages,
         "stream": False
     }

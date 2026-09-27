@@ -25,7 +25,7 @@ def get_today_date():
     # Return date and time in the required format
     return now.strftime("%S:%M:%H, %d/%m/%Y")
 
-# Call the function
+# Call the function to get today's date and time
 print("Printing today's date and time:", get_today_date())
-# Call the function
+# Call the function to print the Fibonacci sequence
 fibonacci()

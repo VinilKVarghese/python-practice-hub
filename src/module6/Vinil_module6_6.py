@@ -45,7 +45,7 @@ class UserInformation(BaseModel):
 # =========================================================
 
 llm = ChatOllama(
-    model="qwen2.5:7b",
+    model="qwen2.5:1.5b",
     temperature=0
 )
 

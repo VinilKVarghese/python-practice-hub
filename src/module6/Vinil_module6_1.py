@@ -13,7 +13,7 @@ from langchain_core.prompts import ChatPromptTemplate
 DOCUMENT_PATH = "company_policy.docx"
 DB_PATH = "./chroma_db"
 
-CHAT_MODEL = "qwen2.5:0.5b"
+CHAT_MODEL = "qwen2.5:1.5b"
 EMBEDDING_MODEL = "nomic-embed-text"
 
 

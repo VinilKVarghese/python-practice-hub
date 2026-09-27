@@ -6,6 +6,10 @@ import string
 import os
 
 
+# Database location inside the Docker container
+DATABASE = "/app/data/users.db"
+
+
 # Function to generate random user data
 def generate_random_user(user_id):
     """Generate random values for one user and return them."""
@@ -36,10 +40,15 @@ def generate_random_user(user_id):
 # Function to create the database table
 def create_table():
     """Create the users table if it does not exist."""
+
+    # Create the data folder if it does not exist
     os.makedirs("/app/data", exist_ok=True)
-    connection = sqlite3.connect("users.db")
+
+    # Connect to the database
+    connection = sqlite3.connect(DATABASE)
     cursor = connection.cursor()
 
+    # Create the users table
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY,
@@ -57,7 +66,7 @@ def create_table():
 def insert_user(user):
     """Insert one user record into the SQL database."""
 
-    connection = sqlite3.connect("users.db")
+    connection = sqlite3.connect(DATABASE)
     cursor = connection.cursor()
 
     cursor.execute("""
@@ -78,7 +87,7 @@ def insert_user(user):
 def display_users():
     """Retrieve and display all user records."""
 
-    connection = sqlite3.connect("/app/data/users.db")
+    connection = sqlite3.connect(DATABASE)
     cursor = connection.cursor()
 
     cursor.execute("SELECT * FROM users")
@@ -106,3 +115,4 @@ if __name__ == "__main__":
 
     # Display the stored records
     display_users()
+

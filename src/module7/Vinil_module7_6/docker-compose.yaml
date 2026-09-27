@@ -16,7 +16,7 @@ services:
     environment:
       PERSONA_MODE: ${PERSONA_MODE:-false}
       OLLAMA_URL: http://ollama:11434
-      MODEL_NAME: ${MODEL_NAME:-qwen2.5:3b}
+      MODEL_NAME: ${MODEL_NAME:-qwen2.5:1.5b}
     depends_on:
       - ollama
 

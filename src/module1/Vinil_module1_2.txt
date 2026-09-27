@@ -26,8 +26,10 @@ Disadvantages of Python:
 
 Overall, Python is a powerful, flexible, and beginner-friendly language that excels in rapid development and modern technologies like AI and data science.
 
+Pseudocode is a human‑friendly way to describe what a program should do, without using any real programming language syntax.  
+It’s basically writing out the logic of a program in simple, structured English so anyone can understand the steps.
 
-
+//Pseudocode To read a file
 START
   OPEN THE FILE FOR READING
   IF THE FILE CANNOT BE OPENED

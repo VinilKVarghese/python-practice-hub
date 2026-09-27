@@ -4,7 +4,7 @@ import time
 
 
 # Name of the database
-DATABASE_NAME = "tasks.db"
+DATABASE_NAME = "Vinil_module4_2.db"
 
 
 # ID of the task we want to change
